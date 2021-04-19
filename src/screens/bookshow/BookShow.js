@@ -64,6 +64,25 @@ const BookShow = (props) => {
       });
   }, []);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   const locationChangeHandler = (event) => {
     setLocation(event.target.value);
     let newTheatres = [];
