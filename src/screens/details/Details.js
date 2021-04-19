@@ -132,7 +132,7 @@ const Details = (props) => {
               <span className="bold"> Rating:</span> {movie.critics_rating}{" "}
             </Typography>
           </div>
-          <div className="marginTop16">
+          <div style={{ marginTop: 16 }}>
             <Typography>
               <span className="bold">Plot:</span>{" "}
               <a href={movie.wiki_url}>(Wiki Link)</a> {movie.storyline}{" "}
@@ -162,7 +162,7 @@ const Details = (props) => {
             />
           ))}
 
-          <div className="bold marginBottom16 marginTop16">
+          <div style={{ marginBottom: 16, marginTop: 16 }} className="bold">
             <Typography>
               <span className="bold">Artists:</span>
             </Typography>
